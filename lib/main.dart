@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       title: "Login App",
       debugShowCheckedModeBanner: false,
+      defaultTransition: Transition.leftToRightWithFade,
+      transitionDuration: const Duration(milliseconds: 500),
       home: SplashScreen(),
     );
   }

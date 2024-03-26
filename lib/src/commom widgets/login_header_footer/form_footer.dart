@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:login_app/src/constants/color.dart';
 
-class LoginFooterWidget extends StatelessWidget {
-  const LoginFooterWidget({
+class FormFooterWidget extends StatelessWidget {
+  const FormFooterWidget({
     super.key, required this.title, required this.subtitle,
   });
 
